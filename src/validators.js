@@ -1,5 +1,3 @@
-// import RegistrationForm from './components/RegistrationForm/RegistrationForm';
-
 export const validateEmail = value => {
 	if (!value) return 'Email не должен быть пустым';
 	if (!/\S+@\S+\.\S+/.test(value)) return 'Неверный формат email';

@@ -53,7 +53,7 @@ function RegistrationForm() {
 
 		setRepeatPassword(newRepeatPassword);
 
-		const error = validateRepeatPassword(target.value);
+		const error = validateRepeatPassword(target.value, password);
 
 		setRepeatPasswordError(error);
 
